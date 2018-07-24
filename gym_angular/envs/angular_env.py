@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 import glob
 
-class Angular_qa_env(gym.Env):
+class AngularEnv(gym.Env):
 
     #Possibly rework/relabel with more inc/dec options
     ACTION_SPACE={'increase':0.01,'decrease':-0.01,'no_change':0}

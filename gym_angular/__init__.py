@@ -1,8 +1,8 @@
 from gym.envs.registration import register
 
 register(
-    id='angular-qa-v0',
-    entry_point='angular_qa.envs:Angular_qa_env'
+    id='angular-v0',
+    entry_point='angular_qa.envs:AngularEnv'
 )
 
 # register(
